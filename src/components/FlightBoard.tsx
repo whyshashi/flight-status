@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom';
 import { useFlights } from '../hooks/useFlights';
 import { Flight } from '../types/Flight';
