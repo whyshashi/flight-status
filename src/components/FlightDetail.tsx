@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { FlightDetail as FlightDetailType } from '../types/Flight';
 import { getFlightDetail } from '../services/api';
@@ -37,34 +37,34 @@ export function FlightDetail() {
   <div className='flight-details-inner'>
 
 
-  <table class="flight-detail-table">
+  <table >
   <tr>
-    <td class="table-header">Flight Number</td>
-    <td class="table-data">{flight.flightNumber}</td>
+    <td >Flight Number</td>
+    <td >{flight.flightNumber}</td>
   </tr>
   <tr>
-    <td class="table-header">Airline</td>
-    <td class="table-data">{flight.airline}</td>
+    <td >Airline</td>
+    <td >{flight.airline}</td>
   </tr>
   <tr>
-    <td class="table-header">Origin</td>
-    <td class="table-data">{flight.origin}</td>
+    <td >Origin</td>
+    <td >{flight.origin}</td>
   </tr>
   <tr>
-    <td class="table-header">Destination</td>
-    <td class="table-data">{flight.destination}</td>
+    <td >Destination</td>
+    <td >{flight.destination}</td>
   </tr>
   <tr>
-    <td class="table-header">Departure Date</td>
-    <td class="table-data">{flight.departureTime.slice(0,10)}</td>
+    <td >Departure Date</td>
+    <td >{flight.departureTime.slice(0,10)}</td>
   </tr>
   <tr>
-    <td class="table-header">Departure Time</td>
-    <td class="table-data">{flight.departureTime.slice(11,16)} LST</td>
+    <td >Departure Time</td>
+    <td >{flight.departureTime.slice(11,16)} LST</td>
   </tr>
   <tr>
-    <td class="table-header">Status</td>
-    <td class="table-data">{flight.status}</td>
+    <td >Status</td>
+    <td >{flight.status}</td>
   </tr>
 </table>
 
