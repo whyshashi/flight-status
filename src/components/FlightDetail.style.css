@@ -1,0 +1,119 @@
+
+.flight-details-container {
+    max-width: 700px;
+    margin: 60px auto;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(5px); 
+
+  }
+  
+  .flight-details-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+  }
+
+
+  .flight-details-container h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      font-style: normal;
+      
+  }
+  
+  
+  .flight-details-container p {
+    font-size: 18px;
+    margin: 8px 0;
+    color: #000000;
+  }
+  
+ 
+  .flight-details-container p strong {
+    color: #000000;
+    font-weight: 600;
+    display: inline-block;
+    /* min-width: 130px; */
+  }
+  
+ 
+  .back-link {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 25px;
+    background-color: #406be1;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0 5px 15px rgba(76, 175, 80, 0.3);
+    transition: all 0.3s ease;
+    text-align: center;
+  }
+  
+  .back-link:hover {
+    background-color: #406be1;
+    box-shadow: 0 8px 20px rgba(52, 117, 237, 0.5);
+    transform: translateY(-2px);
+  }
+
+  
+
+  .flight-detail-table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1em;
+  font-family: 'Arial', sans-serif;
+  text-align: left;
+  border: 1px solid #dddddd;
+}
+
+.flight-detail-table tr:nth-child(even) {
+  /* background-color: #f9f9f9; */
+  backdrop-filter: blur(5px); 
+}
+
+.flight-detail-table tr:nth-child(odd) {
+  /* background-color: #ffffff; */
+  backdrop-filter: blur(5px); 
+}
+
+.flight-detail-table td {
+  padding: 12px 15px;
+  border: 1px solid #dddddd;
+}
+
+.table-header {
+  font-weight: bold;
+  /* background-color: #f2f2f2; */
+  backdrop-filter: blur(5px); 
+  color: #333;
+  text-transform: uppercase;
+}
+
+.table-data {
+  color: #555;
+}
+
+.flight-detail-table td.table-data {
+  text-align: right;
+}
+
+
+  
+ 
