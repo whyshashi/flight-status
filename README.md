@@ -70,27 +70,6 @@ The application should now be running on http://localhost:3000 in your browser.
 # Deployed Link
 - https://flight-status-page.vercel.app/
 
-# Folder Structure
-
-src/
-│
-├── components/        # Reusable components
-│   ├── FlightBoard.tsx  # Component for the main flight table
-│   └── FlightDetail.tsx # Component for the detailed flight view
-│
-├── types/            
-│   └── Flight.tsx   
-│
-├── hooks/             # Custom hooks 
-│   └── useFlights.ts 
-│
-├── services/          # API service files
-│   └── api.ts  # Axios logic for calling the flight API
-│
-├── App.tsx            # Root component
-└── index.tsx          # Entry point of the app
-
-
 
 # FAQ
 
