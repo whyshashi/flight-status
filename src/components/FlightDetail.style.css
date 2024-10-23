@@ -9,7 +9,7 @@
     line-height: 1.6;
     position: relative;
     overflow: hidden;
-    backdrop-filter: blur(5px); 
+    backdrop-filter: blur(35px); 
 
   }
   
