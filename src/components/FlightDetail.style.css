@@ -12,6 +12,47 @@
     backdrop-filter: blur(35px); 
 
   }
+
+  .bluec{
+      display: inline-block;
+      align-items: center;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin-right: 5px;
+      margin-bottom: 1px;
+      background-color: blue;
+  }
+  .greenc{
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-bottom: 1px;
+    background-color: green;
+}
+.yellowc{
+  display: inline-block;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-bottom: 1px;
+  background-color: yellow;
+}
+.redc{
+  display: inline-block;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-bottom: 1px;
+  background-color: red;
+}
   
   .flight-details-inner{
     display: flex;

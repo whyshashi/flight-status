@@ -31,6 +31,20 @@ export function FlightDetail() {
   if (error) return <div>{error}</div>;
   if (!flight) return <div>Flight not found</div>;
 
+
+  let stat: string = '';
+
+ 
+  if (flight.status == "On Time") {
+    stat = "bluec";
+  } else if (flight.status == "Delayed") {
+    stat = "redc";
+  } else if (flight.status == "Boarding") {
+    stat = "greenc";
+  } else {
+    stat = "yellowc";
+  }
+
   return (
     <div className="flight-details-container">
   <h2>Flight Details</h2>
@@ -64,7 +78,7 @@ export function FlightDetail() {
   </tr>
   <tr>
     <td >Status</td>
-    <td >{flight.status}</td>
+    <td ><span className={stat}></span>{flight.status}</td>
   </tr>
 </table>
 
