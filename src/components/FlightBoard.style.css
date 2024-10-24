@@ -92,6 +92,11 @@
       display: block;
     }
 
+    .tdstatus{
+      display: flex;
+      align-items: center;
+    }
+
     .board-table td a {
       
      

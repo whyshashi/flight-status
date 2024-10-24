@@ -50,7 +50,7 @@ export function FlightBoard() {
       <td data-label="Departure Time">
         {flight.departureTime.slice(11, 16)}, {flight.departureTime.slice(0, 10)}
       </td>
-      <td data-label="Status">
+      <td data-label="Status" className='tdstatus'>
         <span className={stat}></span>{flight.status}
       </td>
       <td data-label="Details">
