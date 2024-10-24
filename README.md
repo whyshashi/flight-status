@@ -70,6 +70,9 @@ The application should now be running on http://localhost:3000 in your browser.
 # Deployed Link
 - https://flight-status-page.vercel.app/
 
+# Presentation Video Link
+
+- https://youtu.be/HS_lTcX0fOA
 
 # FAQ
 
