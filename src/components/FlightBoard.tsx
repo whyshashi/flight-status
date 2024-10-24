@@ -19,7 +19,7 @@ export function FlightBoard() {
         <th>Airline</th>
         <th>Origin</th>
         <th>Destination</th>
-        <th>Departure Time</th>
+        <th>Departure</th>
         <th>Status</th>
         <th>Details</th>
       </tr>
@@ -31,10 +31,10 @@ export function FlightBoard() {
           <td data-label="Airline">{flight.airline}</td>
           <td data-label="Origin">{flight.origin}</td>
           <td data-label="Destination">{flight.destination}</td>
-          <td data-label="Departure Time">{flight.departureTime.slice(11,16)}</td>
+          <td data-label="Departure Time">{flight.departureTime.slice(11,16)}, {flight.departureTime.slice(0,10)}</td>
           <td data-label="Status">{flight.status}</td>
           <td data-label="Details">
-            <Link to={`/flight/${flight.id}`}>View Details</Link>
+            <Link to={`/flight/${flight.id}`}>View</Link>
           </td>
         </tr>
       ))}
